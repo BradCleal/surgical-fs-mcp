@@ -422,7 +422,6 @@ namespace SurgicalFsMcp
         {
             Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
             Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "Projects"),
-            @"C:\Users\bradc\Documents\ClaudeWorkspace",
         };
 
         public static bool IsPathAllowed(string path)

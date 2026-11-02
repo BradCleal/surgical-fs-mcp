@@ -77,7 +77,7 @@ Directly ported from ClipMicro's `BackupManager`:
 ### Build
 
 ```bash
-cd C:\Users\bradc\Documents\ClaudeWorkspace\Projects\surgical-fs-mcp
+cd C:\path\to\surgical-fs-mcp
 dotnet restore
 dotnet build --configuration Release
 ```
@@ -107,7 +107,7 @@ Edit `%APPDATA%\Claude\claude_desktop_config.json`:
   "mcpServers": {
     "surgical_fs": {
       "command": "dotnet",
-      "args": ["run", "--project", "C:\\Users\\bradc\\Documents\\ClaudeWorkspace\\Projects\\surgical-fs-mcp\\SurgicalFsMcp.csproj"]
+      "args": ["run", "--project", "C:\\path\\to\\surgical-fs-mcp\\SurgicalFsMcp.csproj"]
     }
   }
 }
@@ -118,7 +118,7 @@ Edit `%APPDATA%\Claude\claude_desktop_config.json`:
 {
   "mcpServers": {
     "surgical_fs": {
-      "command": "C:\\Users\\bradc\\Documents\\ClaudeWorkspace\\Projects\\surgical-fs-mcp\\bin\\Release\\net8.0\\surgical-fs-mcp.exe"
+      "command": "C:\\path\\to\\surgical-fs-mcp\\bin\\Release\\net8.0\\surgical-fs-mcp.exe"
     }
   }
 }
